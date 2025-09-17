@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayah Futuhul Mu'arif Al-Aziziyyah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: #f5f5f5;
+        }
+        .header-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://placeholder-image-service.onrender.com/image/1200x600?prompt=Islamic%20boarding%20school%20in%20Aceh%20with%20traditional%20architecture%20and%20green%20surroundings&id=8df48de3-abc6-4881-9cb8-a77e0499c9c2');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+        .kitab-card {
+            transition: transform 0.3s ease;
+        }
+        .kitab-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="header-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Dayah Futuhul Mu'arif Al-Aziziyyah</h1>
+            <p class="text-xl md:text-2xl mb-8">Lembaga Pendidikan Islam Salafiyyah Bermazhab Syafi'i</p>
+            <div class="bg-green-700 inline-block px-6 py-2 rounded-full">
+                <p class="text-sm">Jln. Prof A. Majid Ibrahim Seuriget, Kota Langsa</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Info Utama -->
+        <section class="grid md:grid-cols-3 gap-8 mb-16">
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="section-icon bg-green-100 text-green-600">
+                    <i class="fas fa-user-graduate text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Pendiri</h3>
+                <p class="text-gray-600">Abana Murdani Muhammad</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="section-icon bg-blue-100 text-blue-600">
+                    <i class="fas fa-calendar-alt text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Tahun Berdiri</h3>
+                <p class="text-gray-600">2011</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="section-icon bg-purple-100 text-purple-600">
+                    <i class="fas fa-school text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Jenis Lembaga</h3>
+                <p class="text-gray-600">Dayah Salafiyyah</p>
+            </div>
+        </section>
+
+        <!-- Sejarah -->
+        <section class="bg-white rounded-lg shadow-md p-8 mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-green-700 border-b-2 border-green-200 pb-2">Sejarah Pendirian</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="md:w-1/3">
+                    <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Islamic%20scholar%20teaching%20in%20traditional%20setting&id=8df48de3-abc6-4881-9cb8-a77e0499c9c2" 
+                         alt="Gambaran suasana pengajian di dayah dengan guru dan santri" 
+                         class="rounded-lg shadow-md">
+                </div>
+                <div class="md:w-2/3">
+                    <p class="text-gray-700 mb-4">
+                        Futuhul Mua’rif Al-Aziziyyah adalah Lembaga Pendidikan Islam salafiyah yang bermazhab Syafi'i yang lebih erat sebutannya di kalangan masyarakat Aceh dengan sebutan Dayah, didirikan pada tahun 2011. Pada tahun 2014, Dayah ini dicatatkan ke Notaris AWALUDDIN, S.H. NO.C-173. HT.03.01-Th.1999.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Didirikan oleh Tgk. Murdani Muhammad, seorang ulama muda alumnus Dayah Mudi Mesra Samalanga. Berdirinya lembaga ini atas inisiatif dan rekomendasi dari orang tua beliau Abu Muhammad Usman yang lebih dikenal dengan Abu Seuriget, seorang ulama kharismatik di Kota Langsa.
+                    </p>
+                    <p class="text-gray-700">
+                        Tujuannya adalah untuk mengapresiasikan masyarakat kedalam prilaku yang bersyari'at dan bermazhab serta mencetak kader-kader Ulama yang ta'at, berakhlaq, bermazhab serta mampu berkiprah secara nyata bagi kepentingan Agama dan Bangsa demi terwujudnya Baldatun Thayyibatun Warabbun Ghafur.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Struktur Organisasi -->
+        <section class="bg-white rounded-lg shadow-md p-8 mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">Struktur Organisasi</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="py-3 px-4 text-left text-gray-700 font-semibold">Jabatan</th>
+                            <th class="py-3 px-4 text-left text-gray-700 font-semibold">Nama</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-200 hover:bg-gray-50">
+                            <td class="py-3 px-4 font-medium">Pendiri/Pimpinan</td>
+                            <td class="py-3 px-4">Tgk. Murdani Muhammad</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-50">
+                            <td class="py-3 px-4 font-medium">Ketua Umum</td>
+                            <td class="py-3 px-4">Tgk. Muzakir Usman</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-50">
+                            <td class="py-3 px-4 font-medium">Sekretaris Umum</td>
+                            <td class="py-3 px-4">Tgk. Heriyansyah Ilyas</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-50">
+                            <td class="py-3 px-4 font-medium">Bendahara</td>
+                            <td class="py-3 px-4">Tgk. Zulkifli Hasan</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-4 text-gray-600">
+                Kepengurusan tersebut diatas juga dilengkapi dengan beberapa personal yang bertanggung jawab pada bidang-bidang tertentu, seperti: bidang pengajian masyarakat, pendidikan, da'wah, sosial kemasyarakatan, sosial ekonomi dan bidang pembangunan.
+            </p>
+        </section>
+
+        <!-- Ciri Khas dan Kitab -->
+        <section class="bg-white rounded-lg shadow-md p-8 mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-purple-700 border-b-2 border-purple-200 pb-2">Ciri Khas dan Kitab Pengajaran</h2>
+            <div class="mb-8">
+                <p class="text-gray-700 mb-6">
+                    Pendidikan kelembagaan yang diselenggarakan di Dayah Futuhul Mu'arif Al-Aziziyyah adalah pengajian Salafiyyah dengan menggunakan dan mengkaji kitab kuning. Sistem pengajarannya menggunakan metode mutarahah (diskusi masalah) dan mutala'ah (menganalisa ma'na tersirat dari kalimat).
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-green-50 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold text-green-700 mb-3">Metode Pengajaran</h3>
+                        <ul class="list-disc list-inside text-gray-700 pl-2">
+                            <li class="mb-2">Mutarahah (diskusi masalah)</li>
+                            <li>Mutala'ah (menganalisa makna tersirat)</li>
+                        </ul>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Materi Pelajaran</h3>
+                        <ul class="list-disc list-inside text-gray-700 pl-2">
+                            <li class="mb-1">Fiqh</li>
+                            <li class="mb-1">Tauhid</li>
+                            <li class="mb-1">Tasawwuf</li>
+                            <li class="mb-1">Tafsir</li>
+                            <li class="mb-1">Hadist</li>
+                            <li class="mb-1">Nahwu</li>
+                            <li class="mb-1">Sharaf</li>
+                            <li class="mb-1">Balaghah</li>
+                            <li class="mb-1">Mantiq</li>
+                            <li>Usul Fiqh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Kitab-kitab yang Digunakan</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="kitab-card bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 class="font-semibold text-green-700">Fiqh</h4>
+                    <p class="text-gray-600">Matan taqrib, Bajuri, I'anatuttalibin, Mahalli, Dsb.</p>
+                </div>
+                <div class="kitab-card bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 class="font-semibold text-green-700">Tauhid</h4>
+                    <p class="text-gray-600">Khamsatu mutun, Kifayatul 'awam, Syarkawi, Dusuki, dsb.</p>
+                </div>
+                <div class="kitab-card bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 class="font-semibold text-green-700">Tasawuf</h4>
+                    <p class="text-gray-600">Ta'limul muta'alim, Muraqil ubudiyyah, Sirajuttalibin, Ihya ulumuddin</p>
+                </div>
+                <div class="kitab-card bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 class="font-semibold text-green-700">Tafsir</h4>
+                    <p class="text-gray-600">Tafsir Sawi A'la Jalalaini</p>
+                </div>
+                <div class="kitab-card bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 class="font-semibold text-green-700">Hadist</h4>
+                    <p class="text-gray-600">Minhatul Mughist, Baiquni, Taisir Mustalah Hadits</p>
+                </div>
+                <div class="kitab-card bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <h4 class="font-semibold text-green-700">Nahu</h4>
+                    <p class="text-gray-600">Awamil, Jarumiyah, Matammimah, Qatrunnada, Ibnu 'aqil, dsb.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kondisi Masyarakat -->
+        <section class="bg-white rounded-lg shadow-md p-8 mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-amber-700 border-b-2 border-amber-200 pb-2">Kondisi Sosial Masyarakat</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="md:w-2/3">
+                    <p class="text-gray-700 mb-4">
+                        Masyarakat Desa Seuriget adalah masyarakat petani dan nelayan. Mereka terdiri dari petani palawija, sebagian kecil masyarakat di sini menjadi pegawai, karyawan dan wirausaha.
+                    </p>
+                    <p class="text-gray-700">
+                        Dari segi agama semuanya beragama Islam, sedangkan dari segi etnis sebagian besar etnis Aceh dan selebihnya terdapat beberapa etnis nusantara.
+                    </p>
+                </div>
+                <div class="md:w-1/3">
+                    <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Acehnese%20fishing%20village%20with%20boats%20and%20traditional%20houses&id=8df48de3-abc6-4881-9cb8-a77e0499c9c2" 
+                         alt="Pemandangan desa nelayan tradisional di Aceh dengan perahu dan rumah panggung" 
+                         class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri -->
+        <section class="bg-white rounded-lg shadow-md p-8 mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-teal-700 border-b-2 border-teal-200 pb-2">Galeri Dayah</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Traditional%20Islamic%20school%20building%20in%20Aceh%20with%20students&id=8df48de3-abc6-4881-9cb8-a77e0499c9c2" 
+                         alt="Bangunan dayah tradisional Aceh dengan arsitektur khas dan santri beraktivitas" 
+                         class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+                <div>
+                    <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Islamic%20study%20session%20with%20students%20reading%20religious%20books&id=8df48de3-abc6-4881-9cb8-a77e0499c9c2" 
+                         alt="Sesi belajar mengajar di dayah dengan santri membaca kitab kuning" 
+                         class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+                <div>
+                    <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Traditional%20Acehnese%20village%20landscape%20with%20rice%20fields&id=8df48de3-abc6-4881-9cb8-a77e0499c9c2" 
+                         alt="Pemandangan desa tradisional Aceh dengan sawah dan perkebunan" 
+                         class="rounded-lg shadow-md w-full h-48 object-cover">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-2xl font-bold">Dayah Futuhul Mu'arif Al-Aziziyyah</h3>
+                    <p class="mt-2">Jln. Prof A. Majid Ibrahim Seuriget, Kota Langsa</p>
+                </div>
+                <div>
+                    <p class="text-sm">© 2023 Dayah Futuhul Mu'arif Al-Aziziyyah. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
